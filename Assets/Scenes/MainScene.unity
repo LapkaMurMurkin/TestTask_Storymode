@@ -37994,6 +37994,7 @@ MonoBehaviour:
     - rid: 1846704788306133324
     - rid: 1846704778257891508
     - rid: 1846704788306133269
+    - rid: 1846704789637038263
     - rid: 1846704778257891486
     - rid: 1846704778257891494
     - rid: 1846704778257891572
@@ -38003,6 +38004,7 @@ MonoBehaviour:
     - rid: 1846704778257891617
     - rid: 1846704778257891497
     - rid: 1846704778257891489
+    - rid: 1846704789637038266
     - rid: 1846704788306133283
     - rid: 1846704778257891511
     - rid: 1846704733604282589
@@ -38310,6 +38312,44 @@ MonoBehaviour:
             rid: 1846704788306133325
     - rid: 1846704788306133325
       type: {class: GetDecimalInteger, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 1
+    - rid: 1846704789637038263
+      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_GameObject:
+          m_Property:
+            rid: 1846704789637038264
+        m_Active:
+          m_Property:
+            rid: 1846704789637038265
+    - rid: 1846704789637038264
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 50022409}
+    - rid: 1846704789637038265
+      type: {class: GetBoolValue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 0
+    - rid: 1846704789637038266
+      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      data:
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_GameObject:
+          m_Property:
+            rid: 1846704789637038267
+        m_Active:
+          m_Property:
+            rid: 1846704789637038268
+    - rid: 1846704789637038267
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 50022409}
+    - rid: 1846704789637038268
+      type: {class: GetBoolValue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: 1
 --- !u!1001 &1121112673994823525
